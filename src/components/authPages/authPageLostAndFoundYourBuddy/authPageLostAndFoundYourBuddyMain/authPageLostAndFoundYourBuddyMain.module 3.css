@@ -1,0 +1,155 @@
+.container {
+    width: 50vw;
+    margin-top: 30px;
+    box-shadow: 0 3px 6px #00000029;
+    background-color: white;
+    height: 80%;
+}
+
+.containerChild {
+    width: 651px;
+    height: 403px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    background-color: white;
+
+}
+.header{
+    /*outline: 1px solid purple;*/
+    font-size: 16px;
+    color: #669885;
+    margin-top: 30px;
+
+}
+
+.lostForm {
+    width: 315px;
+    height: 403px;
+    margin-left: 19px;
+    margin-right: 50px;
+
+}
+
+.clue{
+    color: #669885;
+    font-size: 10px;
+}
+
+textarea {
+    border-color: #669885;
+    font-size: 12px;
+}
+
+.distinkt {
+    font-size: 12px;
+    height: 46px;
+    width: 75px;
+    word-wrap: break-word;
+    text-align: right;
+    margin-right: 20px;
+
+}
+
+.divContainer{
+    margin-bottom: 4px;
+    font-size: 12px;
+    display: flex;
+}
+
+span{
+    width: 43px;
+    text-align: right;
+    margin-left: 21px;
+}
+
+.containerText{
+    display: flex;
+    margin-top: 4px;
+
+}
+
+
+.textareaWOBorder {
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    width: 80%;
+}
+
+span {
+    margin-right: 17px;
+
+}
+
+textarea::placeholder {
+    padding: 1px;
+    background-color: white;
+}
+
+
+.lostList {
+    border: 0;
+    width: 65px;
+    font-size: 12px;
+
+}
+
+.lostPicFile {
+    width: 291px;
+    height: 403px;
+}
+
+.lbImg{
+    width: 200px;
+}
+
+.lostContacts {
+    height: 120px;
+    width: 92%;
+    margin-left: 5%;
+}
+
+.contacts{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.contacts div{
+    margin-right: 20px;
+    word-wrap: break-word;
+}
+
+.subBtn{
+    margin-left: 488px;
+    margin-top: -35px;
+}
+
+.user{
+    margin-left: 50px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: start;
+    margin-left: 5px;
+}
+
+.userName{
+    color: #84B6A3;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 100px;
+    word-wrap: break-word;
+}
+
+.userImg{
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+}
+
+.contactsText{
+    font-size: 12px;
+    margin-left: -15px;
+}

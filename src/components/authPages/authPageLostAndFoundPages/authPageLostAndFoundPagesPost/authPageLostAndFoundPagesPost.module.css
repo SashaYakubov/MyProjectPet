@@ -1,0 +1,139 @@
+.container {
+    width: 49vw;
+    height: 270px;
+    padding: 1%;
+    display: flex;
+    box-shadow: 0px 3px 6px #00000029;
+    margin-top: 40px;
+
+}
+
+.container:last-child{
+    margin-bottom: 50px;
+}
+
+.mainImgBox {
+    height: 100%;
+    width: 45%;
+}
+
+.mainImgBox img {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    width: 55%;
+    margin-left: 3%;
+    height: 100%;
+    position: relative;
+}
+
+.typeAndBreed {
+    font-size: 22px;
+    color: #84B6A3;
+}
+
+.featuresBox {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featuresBox p {
+    font-size: 12px;
+    color: #393939;
+}
+
+.featuresBox span {
+    justify-content: flex-start;
+    color: #84B6A3;
+    margin: 0;
+}
+
+
+.description {
+    margin-top: 20px;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.description span {
+    color: #84B6A3;
+    margin: 0;
+    justify-content: flex-start;
+
+}
+
+
+.wrapper hr {
+    color: #BABABA;
+    height: 1px;
+}
+
+.location {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #393939;
+    display: flex;
+}
+
+.location p {
+    margin-left: 10px;
+}
+
+.personalInfo {
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+}
+
+.userInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.userInfo img {
+    margin-right: 10px;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 16px;
+    color: #84B6A3;
+}
+
+.date {
+    font-size: 12px;
+    color: #BABABA;
+}
+
+.imgLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgLink {
+    background-color: #BABABA;
+}
+
+.imgLink {
+    margin-left: 7px;
+    width: 18px;
+    height: 18px;
+}
+
+.imgLink img {
+    height: 100%;
+    width: 100%;
+}
+
+.imgLinks:first-child {
+    margin-left: 0;
+}

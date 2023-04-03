@@ -1,0 +1,9 @@
+.container{
+    height: 8vh;
+    padding-left: 150px;
+    padding-right: 150px;
+    box-shadow: 0px 3px 6px #00000029;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container ul {
+    list-style: none;
+}
+
+.container ul li {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 7px;
+}
+
+.container ul img{
+    margin-right: 5px;
+    width: 16px;
+}

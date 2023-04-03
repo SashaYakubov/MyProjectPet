@@ -1,0 +1,13 @@
+.container{
+    width: 25vw;
+    background: #84B6A3;
+}
+
+.adBlock{
+    margin-top: 20px;
+    margin-left: 2vw;
+}
+
+.adBlock img{
+    padding-bottom: 4vh;
+}

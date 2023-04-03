@@ -1,0 +1,92 @@
+.containerMain{
+    width: 42vw;
+}
+
+.container{
+    height: 271px;
+    background: white;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.header{
+    font-size: 16px;
+    color: #669885;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.userImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user{
+    margin-top: 15px;
+    display: flex;
+    margin-left: 70px;
+    padding-top: 60px;
+
+}
+
+.userName{
+    padding-top: 15px;
+    padding-left: 30px;
+    width: 100px;
+    word-wrap: break-word;
+    color: #84B6A3;
+}
+
+.textareaWOBorder {
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    width: 400px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-top: 15px;
+}
+
+.contacts{
+    margin-top: 25px;
+}
+
+textarea{
+    margin-left: 20px;
+    background: whitesmoke;
+}
+
+.label{
+    text-align: right;
+    width: 150px;
+}
+
+.buttons{
+    display: flex;
+    margin-left: 22vw;
+    margin-top: 30px;
+}
+
+.btn{
+    padding-right: 10px;
+}
+
+.editImg{
+    width: 10px;
+    height: 10px;
+    background: whitesmoke;
+    position: relative;
+    top: 40px;
+    right: 10px;
+
+}
+
+.inputImg{
+    display: none;
+}
+
+

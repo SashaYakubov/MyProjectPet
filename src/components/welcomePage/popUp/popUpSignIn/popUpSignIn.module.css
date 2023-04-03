@@ -1,0 +1,44 @@
+.container{
+    height: 170px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.container input{
+    outline: none;
+    border: none;
+    border-bottom: #84B6A3 1px solid;
+    margin-left: 17px;
+    width: 200px;
+}
+
+.container input::placeholder{
+    opacity: 0.8;
+}
+
+.container form{
+    color: black;
+    width: 49%;
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-right: 3%;
+}
+
+.forgotPassword{
+    width: 49%;
+    margin: 4% 0 0 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #BABABA;
+    font-size: 14px;
+}
+
+.forgotPassword u{
+    cursor: pointer;
+}

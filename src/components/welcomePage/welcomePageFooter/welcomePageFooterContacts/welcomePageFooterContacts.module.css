@@ -1,0 +1,12 @@
+.container{
+    font-size: 12px;
+}
+
+.container img{
+    width: 29px;
+    cursor: pointer;
+}
+
+.instIcon{
+    margin-left: 7px;
+}

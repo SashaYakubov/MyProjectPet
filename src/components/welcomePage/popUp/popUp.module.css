@@ -1,0 +1,56 @@
+.container {
+    width: 650px;
+    height: 390px;
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.closeBtn {
+    position: absolute;
+    top: 2%;
+    right: 1%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.signChoose {
+    display: flex;
+}
+
+.signInBtn {
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background-color: #84B6A3;
+    opacity: 0.28;
+    height: 34px;
+    align-items: center;
+}
+
+.signUpBtn {
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background-color: #84B6A3;
+    opacity: 0.28;
+    height: 34px;
+    align-items: center;
+}
+
+.activeBtn {
+    opacity: 1;
+}

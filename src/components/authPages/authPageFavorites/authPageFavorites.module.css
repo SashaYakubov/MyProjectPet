@@ -1,0 +1,15 @@
+.containerMain{
+    display: flex;
+}
+
+.header{
+    color: #84B6A3;
+    margin-left: 2vw;
+    margin-top: 30px;
+}
+
+.container{
+    padding-left: 20px;
+    padding-right: 23px;
+    width: 50vw;
+}

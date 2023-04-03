@@ -1,0 +1,32 @@
+.wrapper{
+    position: absolute;
+    bottom: 4%;
+    margin-right: 2%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    color: #BABABA;
+    font-size: 10px;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+.container p {
+    margin-left: 1%;
+    width: 49%;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1%;
+}
+
+.cancelBtn{
+    margin-right: 15px;
+}
+
+.container u{
+    cursor: pointer;
+}

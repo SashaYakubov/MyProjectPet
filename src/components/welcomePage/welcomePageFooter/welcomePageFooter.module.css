@@ -1,0 +1,10 @@
+.container{
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 200px;
+    padding-left: 150px;
+    background-color: #669885;
+    align-items: center;
+    height: 193px;
+}

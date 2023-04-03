@@ -1,0 +1,157 @@
+.container {
+    width: 50vw;
+}
+
+.containerChild {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    box-shadow: 0px 3px 6px #00000029;
+    padding-bottom: 10px;
+
+}
+
+.header {
+    color: #669885;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.inputText {
+    width: 40vw;
+    height: 50vh;
+
+}
+
+.pls {
+    word-wrap: break-word;
+    width: 40.5vw;
+    height: 50vh;
+    border: 1px solid #8DBFAC;
+}
+
+
+.pls::placeholder {
+    word-wrap: break-word;
+    /*outline: 1px solid red;*/
+    /*height: 20vh;*/
+    /*padding-top: 30px;*/
+}
+
+.post {
+    display: flex;
+}
+
+.textPost {
+    text-align: right;
+    width: 5vw;
+    margin-right: 1vw;
+}
+
+.textPost p {
+    font-size: 10px;
+    color: #84B6A3;
+}
+
+
+.photos {
+    width: 205px;
+    height: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 0;
+}
+
+.photos img {
+    width: 53px;
+    height: 36px;
+}
+
+/*.photos > img{*/
+/*    width: 152px;*/
+/*    height: 111px;*/
+/*}*/
+
+
+.photos img:first-child {
+    width: 152px;
+    height: 111px;
+}
+
+.photoNames {
+    width: 17vw;
+    height: 160px;
+    border: 1px solid #8DBFAC;
+    margin-left: 2vw;
+
+}
+
+.x {
+    color: #BABABA;
+    padding: 2px 5px 5px 5px;
+    display: flex;
+    justify-content: space-between
+}
+
+.x > :first-child{
+    display: flex;
+    word-wrap: break-word;
+    justify-content: left;
+}
+
+.x  > :nth-child(2):hover{
+    cursor: pointer;
+}
+
+.publishBtn{
+    margin-right: 3vw;
+}
+
+.subForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vh;
+    margin-left: 10px;
+
+}
+
+.photoZone {
+    margin-top: 2vh;
+    display: flex;
+}
+
+.browBtn {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 2vw;
+}
+
+
+.userImg {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-top: -7px;
+
+
+}
+
+.user {
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+
+}
+
+.user:hover{
+    cursor: pointer;
+}
+
+.userName {
+    padding-left: 10px;
+    width: 100px;
+    word-wrap: break-word;
+
+
+}

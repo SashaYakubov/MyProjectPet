@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #FF6F61;
+    color: whitesmoke;
+    align-items: center;
+    width: 100%;
+}
+
+.containerChildren{
+    display: flex;
+    align-items: center;
+}
+
+.mainText {
+    font-size: 56px;
+
+}
+
+.description {
+    width: 396px;
+}
+
+.heart{
+    position: relative;
+
+}
+
+.heartText{
+    width: 100%;
+    /*outline: 2px solid green;*/
+    position: absolute;
+    left: 35%;
+    bottom: 50%;
+
+}
